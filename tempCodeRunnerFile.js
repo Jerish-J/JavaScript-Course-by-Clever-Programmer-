@@ -33,38 +33,11 @@ const double = (numbers) => {
 
 console.log(double([1, 2, 3, 4, 5, 6, 7])) */
 
-// Adding numbers in an array
-
-/* const arr = [ 1, 2, 3, 4, 5,]
+const arr = [ 1, 2, 3, 4, 5,]
 
 let result = 0;
 
 for (ar of arr) {
     result = result + ar
     console.log(result)
-} */
-
-// Program to split letters and words... 2nd program splits the words and saves in  into an array and check for repition
-
-/* const letterFrequency = (phrase) => {
-    console.log(phrase)
-    
-    let frequency = {}
-    for (const letter of phrase) {
-        if (letter in frequency) {
-            frequency[letter] += 1
-        } else {
-            frequency[letter] = 1
-        }
-    }
-    return frequency
 }
-
-console.log(letterFrequency("hello this is jerish"))
-
-const wordFrequency = (phrase) => {
-    const words = phrase.split(" ")
-    letterFrequency(words)
-}
-
-console.log(wordFrequency("Hello from the other side other side yo yo")) */

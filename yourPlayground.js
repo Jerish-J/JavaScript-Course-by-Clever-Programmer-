@@ -68,3 +68,41 @@ const wordFrequency = (phrase) => {
 }
 
 console.log(wordFrequency("Hello from the other side other side yo yo")) */
+
+
+// higher order functions 
+// .map - loops through and returns an array
+
+/* let result = ["hi", "hello", "hw r u"].map(string => string)
+console.log(result) */
+
+const DoubleMap = (numbers) => {
+    let a = numbers.map(numbers => numbers > 2)
+    console.log(a)
+}
+
+// DoubleMap([1, 2, 3, 4, 7])
+
+// GREATER THAN NUMBER
+
+const filter = (numbers, greaterThan) => {
+    let result = []
+    for (const number of numbers) {
+        if (number > greaterThan) {
+            result.push(number)
+        }
+    }
+    return result
+}
+
+// console.log(filter([1, 2, 3, 4, 5, 6], 3))
+
+// .reduce() REDUCE TAKES IN A FUNCTION 
+
+const multiply = (a, b) => a + b 
+
+const nums = [1, 2, 3, 4, 5]
+
+const result = nums.reduce(multiply)
+
+console.log(result)

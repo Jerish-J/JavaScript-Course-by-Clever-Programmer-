@@ -6,10 +6,11 @@
 // Write a function that takes a parameter (hours) and converts
 // it to seconds
 
-function howManySeconds(hours) {
-  // Your function should return an integer
-  // of how many seconds are in the hour
+const howManySeconds = (hours) => {
+  answer = hours * 60 * 60
+  console.log(answer)
 }
 
 //Topics: Variables,functions, Math
 
+howManySeconds(2)

@@ -103,6 +103,13 @@ const multiply = (a, b) => a + b
 
 const nums = [1, 2, 3, 4, 5]
 
-const result = nums.reduce(multiply)
+// const result = nums.reduce(multiply)
 
-console.log(result)
+// console.log(result)
+
+const resultOne = nums.reduce((a, b) => a + b)
+
+// console.log("This is second result", resultOne)
+
+const ActorInfo = [{name: "johnny", networth: 1000000},{name: "sean", networth: 1000000}, {name: "paul", networth: 1000000}, ]
+
